@@ -35,6 +35,7 @@ body {
 }
 .header-right {
   display: flex;
+  position: relative;
 }
 
 .header-right button {
@@ -50,9 +51,19 @@ body {
 
 .header-right select {
   background-color: none;
-  border: none;
   background-color: transparent;
   color: white;
+  padding: 6px 36px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.header-right i {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 8px;
+  left: 12px;
 }
 
 .background {
@@ -108,6 +119,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .type_box input {
   position: relative;
@@ -273,4 +285,275 @@ body {
 .device_left p {
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.kids_right img {
+  height: 400px;
+  padding-top: 30px;
+}
+
+.kids_left {
+  color: white;
+  padding-top: 50px;
+}
+
+.kids_left h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 20px;
+}
+
+.kids_left p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.kids {
+  display: flex;
+}
+
+.container_login {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.background {
+}
+
+.netflix {
+  width: 200px;
+}
+
+.netflix img {
+  position: relative;
+  width: 100%;
+}
+
+.sign_in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  height: 600px;
+}
+
+.sign_in_header {
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  margin-top: -12rem;
+  margin-left: -11rem;
+  position: relative;
+}
+
+.sign_in_center_option {
+  flex-direction: row;
+}
+
+.sign_in_center {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.sign_in_center input:first-child(1) {
+  margin-top: 1rem;
+}
+
+/* .sign_in_center .btn_login {
+  width: 400px;
+  position: relative;
+}
+
+.sign_in_center .btn_login button {
+  width: 100%;
+  position: absolute;
+} */
+
+.sign_in_center .btn_login {
+  margin-left: -1.6rem;
+}
+
+.sign_in_center .btn_login button {
+  padding: 15px 20px;
+  width: 295px;
+}
+
+.sign_in_center input {
+  background-color: none;
+  border: none;
+  background-color: #333;
+  border-radius: 4px;
+  height: 50px;
+  padding: 10px;
+  margin: 3px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.sign_in_center p {
+  color: #b3b3b3;
+}
+
+.sign_in_center button {
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 24px;
+  font-size: 20px;
+  color: white;
+  margin-left: 30px;
+  padding: 6 10;
+}
+
+.sign_in_center_option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sign_in_center_option .RememberMe {
+  display: flex;
+  align-items: center;
+}
+
+.sign_in_center_option a {
+  margin-top: -1.1rem;
+}
+
+.sign_in_center_option .RememberMe p {
+  margin-top: -1rem;
+}
+
+.Frequently_Asked_Questions {
+  color: white;
+}
+
+.Frequently_Asked_Questions_header h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.Frequently_Asked_Questions_content {
+  height: 600px;
+}
+
+.Frequently_Asked_Questions_content p {
+  font-size: 25px;
+}
+
+.help_bar {
+  width: 100%;
+  display: flex;
+  margin: 15px;
+  padding: 30px;
+  border: none;
+  background-color: #333;
+  justify-content: space-between;
+}
+
+.help_bar i {
+  font-size: 25px;
+}
+
+.Frequently_Asked_Questions_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.Frequently_Asked_Questions_footer {
+  font-size: 20px;
+}
+
+.input_section {
+  width: 634px;
+}
+
+.input_section input {
+  position: relative;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 70%;
+  font-size: 15px;
+}
+
+.input_section button {
+  border: none;
+  padding: 18px 10px;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 24px;
+  font-size: 20px;
+  color: white;
+  margin-left: 5px;
+}
+
+.help_option {
+  margin-right: 157.172px;
+  margin-left: 157.172px;
+  padding: 60px;
+  position: relative;
+}
+
+.help_option .help_option_center .faq a,
+.help_option .help_option_center .Help_center a,
+.help_option .help_option_center .Account a,
+.help_option .help_option_header a {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.help_option_center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.help_option_footer {
+  padding-top: 10px;
+  position: relative;
+}
+.help_option_footer p {
+  color: white;
+  padding-top: 10px;
+}
+.help_option_footer select {
+  background-color: none;
+  background-color: transparent;
+  color: white;
+  padding: 6px 36px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.help_option_footer i {
+  position: absolute;
+  color: white;
+  top: 16px;
+  left: 10px;
+  font-size: 24px;
 }
