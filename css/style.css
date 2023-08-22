@@ -1,5 +1,6 @@
 * {
-  font-family: "REM", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -219,6 +220,8 @@ body {
 
 .download {
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 .download_right {
